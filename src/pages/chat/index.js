@@ -16,7 +16,7 @@ function Chat() {
         <main>
           <div className="px-4 sm:px-6 lg:px-8 py-8 w-full max-w-9xl mx-auto">
             <div className="flex flex-row">
-              <div className="border-2 border-gray-200 rounded-l-lg w-1/2 h-96 p-4">
+              <div className="border-2 border-gray-200 rounded-l-lg w-1/2 h-[calc(80vh)] p-4">
                 {/* TITLE */}
                 <div className="flex flex-row items-center">
                   <h4 className="font-bold">Chat</h4>
@@ -139,9 +139,9 @@ function Chat() {
                   <p className="text-xs text-gray-400">10:10</p>
                 </div>
               </div>
-              <div className="border-2 border-gray-200 bg-gray-50 rounded-r-lg w-full h-96 p-6 flex flex-col">
+              <div className="border-2 border-gray-200 bg-gray-50 rounded-r-lg w-full h-[calc(80vh)] p-6 flex flex-col">
                 {/* CURRENT SELECTED CUSTOMER CHAT */}
-                <div className="flex flex-row items-center h-1/5">
+                <div className="flex flex-row items-center h-16">
                   <svg
                     width="32"
                     height="32"
@@ -196,7 +196,7 @@ function Chat() {
                 </div>
 
                 {/* FORM */}
-                <div className="h-1/5">
+                <div className="h-16">
                   <form>
                     <label
                       htmlFor="default-search"
