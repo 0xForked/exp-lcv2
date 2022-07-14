@@ -16,7 +16,7 @@ function Chat() {
         <main>
           <div className="px-4 sm:px-6 lg:px-8 py-8 w-full max-w-9xl mx-auto">
             <div className="flex flex-row">
-              <div className="border-2 border-gray-200 rounded-l-lg w-1/2 h-[calc(80vh)] p-4">
+              <div className="border-2 border-gray-200 rounded-l-lg w-1/3 h-[calc(80vh)] p-4">
                 {/* TITLE */}
                 <div className="flex flex-row items-center">
                   <h4 className="font-bold">Chat</h4>
